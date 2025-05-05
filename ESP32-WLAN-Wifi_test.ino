@@ -1,9 +1,13 @@
 /* ESP32-WLAN-WiFi_testing
    en Hanna P 2025 */
 
-void setup() {
-  // put your setup code here, to run once:
+#include <WiFi.h>
 
+void setup() {
+  WiFi.mode(WIFI_AP);
+  Serial.begin(115200);
+  
+  Serial.println("Setup done");
 }
 
 void loop() {
