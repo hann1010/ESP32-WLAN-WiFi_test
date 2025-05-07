@@ -1,6 +1,7 @@
 /* ESP32-WLAN-WiFi_testing
    en Hanna P 2025 */
 
+// Load Wi-Fi library
 #include <WiFi.h>
 
 void setup() {
