@@ -5,6 +5,9 @@
 #include <WiFi.h>
 
 void setup() {
+
+  //SetUp code runs, once:
+
   Serial.println("Setup start.. ");
   WiFi.mode(WIFI_AP);
   Serial.begin(115200);
